@@ -13,7 +13,7 @@ public class Salary_Switch {
 
 		sc.nextLine();
 
-		System.out.print("근무평가등급을 입력하세요 : ");
+		System.out.print("근무 평가등급을 입력하세요 : ");
 		rating = sc.nextLine();
 
 		switch(rating) {
