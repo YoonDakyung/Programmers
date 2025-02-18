@@ -1,0 +1,7 @@
+import math
+
+def solution(numer1, denom1, numer2, denom2):
+    number = denom1 * numer2 + denom2 * numer1 #분자
+    denom = denom1 * denom2 #분모
+    gcd = math.gcd(denom, number) #최대공약수 구하기
+    return [number//gcd, denom//gcd]
